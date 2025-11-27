@@ -1,0 +1,26 @@
+{
+  "name": "git-nippo",
+  "version": "1.0.0",
+  "description": "git logから日報を生成するCLIツール",
+  "main": "dist/cli.js",
+  "bin": {
+    "git-nippo": "./dist/cli.js"
+  },
+  "scripts": {
+    "start": "node dist/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "log",
+    "daily-report",
+    "nippo",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
